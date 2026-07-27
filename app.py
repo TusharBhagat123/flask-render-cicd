@@ -10,7 +10,7 @@ logging.basicConfig(
 
 @app.route("/")
 def home():
-    return "Flask CI/CD Project is Running Successfully!"
+    return "CI/CD Auto Deployment Working Successfully!"
 
 @app.route("/predict")
 def predict():
